@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+/*font-family: 'Open Sans', sans-serif;
+      */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("../images/bg-desktop.svg") center center no-repeat #674baf;
+    background-size: cover;
+    overflow: hidden;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.registro{
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+    gap: 55px;
+}
+.logo{
+    margin-bottom: 80px;
+    max-width: 215px;
+}
+.registro .imgs{
+    display: flex;
+    flex-direction: column;
+}
+
+.descricao{
+    max-width: 520px;
+    margin-top: 35px;
+    position: relative;
+}
+.descricao h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.descricao p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+
+.registro .descricao button{
+    outline: none;
+    cursor: pointer;
+    padding: 15px 63px;
+    border: none;
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
+    font-family: 'Poppins', sans-serif;
+    color: #674baf;
+    font-size: 18px;
+    font-weight: 100;
+    transition: 0.5s ease-in-out;
+}
+.registro .descricao button:hover{
+    background: #fc7ff5;
+    color: #fff;
+}
+
+.registro .descricao .redes-sociais{
+    position: absolute;
+    bottom: -200px;
+    right: 15px;
+    display: flex;
+}
+.registro .descricao .redes-sociais a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 18px;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+}
+.registro .descricao .redes-sociais a:hover{
+    border: 1px solid #fc7ff5;
+    color: #fc7ff5;
+   
+}
+/* .imgs{
+     margin: 70px 0 70px 110px; 
+}
+.imgs img{
+    width: 200px;
+}
+.principal{
+    display: flex;
+    margin-top: 140px;
+    margin-left: 60px;
+}
+
+.principal img{
+    margin-top: 15px;
+    margin-left: 70px ;
+}
+.descricao{
+    max-width: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family:'Open Sans', sans-serif; 
+    color: #fff;
+}
+
+.texto h2{
+    
+}
+.texto p{
+    
+}
+.texto 
+} */
+
