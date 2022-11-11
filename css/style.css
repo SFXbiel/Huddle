@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
-/*font-family: 'Open Sans', sans-serif;
-      */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
-
 body{
     display: flex;
     align-items: center;
@@ -19,7 +16,6 @@ body{
     color: #fff;
     font-family: 'Open Sans', sans-serif;
 }
-
 .registro{
     display: flex;
     align-items: center;
@@ -34,7 +30,6 @@ body{
     display: flex;
     flex-direction: column;
 }
-
 .descricao{
     max-width: 520px;
     margin-top: 35px;
@@ -51,8 +46,6 @@ body{
     font-size: 18px;
     margin-bottom: 40px;
 }
-
-
 .registro .descricao button{
     outline: none;
     cursor: pointer;
@@ -71,7 +64,6 @@ body{
     background: #fc7ff5;
     color: #fff;
 }
-
 .registro .descricao .redes-sociais{
     position: absolute;
     bottom: -200px;
@@ -96,5 +88,3 @@ body{
     border: 1px solid #fc7ff5;
     color: #fc7ff5;
 }
-
-
